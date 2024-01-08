@@ -1,5 +1,5 @@
 import streamlit as st
-st.get_page_config(page_title="Kings in flim Industry")
+st.set_page_config(page_title="Kings in flim Industry")
 st.header("Types of HEROS in Film industry")
 col1,col2=st.columns(2)
 with col1:
