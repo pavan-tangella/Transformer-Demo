@@ -1,8 +1,7 @@
 import streamlit as st
 st.set_page_config(page_title="Bikes")
 st.header("JAWA vs RE")
-col1,col2=st.columns(2)
-col3,col4=stt.columns(2)
+col1,col2,col3,col4=st.columns(4)
 with col1:
   st.subheader("JAWA PERAK")
   st.image("Jawa.jpeg",caption="JAWA PERAK",width=300)
